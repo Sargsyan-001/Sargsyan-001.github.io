@@ -1,0 +1,195 @@
+{
+  "colection": [
+    {
+      "id": 1,
+      "colectionName": "Letter V",
+      "colectionPrice": 420,
+      "colectionImg": "/assets/V.png",
+      "isFavour": false,
+      "setLetColor": "grayscale(30%)",
+      "colCharmParentId": 1
+    },
+    {
+      "id": 2,
+      "colectionName": "Letter W1",
+      "colectionPrice": 420,
+      "colectionImg": "/assets/W.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(30%)",
+      "colCharmParentId": 1
+    },
+    {
+      "id": 3,
+      "colectionName": "Letter X",
+      "colectionPrice": 420,
+      "colectionImg": "/assets/X.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(1)",
+      "colCharmParentId": 1
+    },
+    {
+      "id": 4,
+      "colectionName": "Letter +",
+      "colectionPrice": 580,
+      "colectionImg": "/assets/plus.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(0)",
+      "colCharmParentId": 1
+    },
+    {
+      "id": 5,
+      "colectionName": "Letter U Silver",
+      "colectionPrice": 400,
+      "colectionImg": "/assets/U3.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(1)",
+      "colCharmParentId": 1
+    },
+    {
+      "id": 6,
+      "colectionName": "Letter U Gold",
+      "colectionPrice": 900,
+      "colectionImg": "/assets/U3.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(1)",
+      "colCharmParentId": 1
+    }
+  ],
+  "charms": [
+    {
+      "id": 7,
+      "charmName": "Letter V Gold",
+      "charmPrice": 1200,
+      "charmImg": "/assets/V.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(0)",
+      "colCharmParentId": 2
+    },
+    {
+      "id": 8,
+      "charmName": "Letter W Gold",
+      "charmPrice": 700,
+      "charmImg": "/assets/W.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(30%)",
+      "colCharmParentId": 2
+    },
+    {
+      "id": 9,
+      "charmName": "Letter X Gold",
+      "charmPrice": 625,
+      "charmImg": "/assets/X.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(30%)",
+      "colCharmParentId": 1
+    },
+    {
+      "id": 10,
+      "charmName": "Letter Plus Gold",
+      "charmPrice": 800,
+      "charmImg": "/assets/plus.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(1)",
+      "colCharmParentId": 2
+    },
+    {
+      "id": 11,
+      "charmName": "Letter U3 Gold",
+      "charmPrice": 1440,
+      "charmImg": "/assets/U3.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(1)",
+      "colCharmParentId": 2
+    },
+    {
+      "id": 12,
+      "charmName": "Letter U4 Gold",
+      "charmPrice": 670,
+      "charmImg": "/assets/U3.png",
+      "isFavour": true,
+      "setLetColor": "grayscale(30%)",
+      "colCharmParentId": 2
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Collection",
+      "catImg": "./assets/12383132.webp"
+    },
+    {
+      "id": 2,
+      "name": "Charm",
+      "catImg": "./assets/925Sterling.png"
+    },
+    {
+      "id": 3,
+      "name": "Belts",
+      "catImg": "./assets/beltsimg.webp"
+    }
+  ],
+  "gen": [
+    {
+      "id": 1,
+      "genName": "Woman"
+    },
+    {
+      "id": 2,
+      "genName": "Man"
+    },
+    {
+      "id": 3,
+      "genName": "Kids"
+    },
+    {
+      "id": 4,
+      "genName": "Animals"
+    }
+  ],
+  "addbag": [
+    {
+      "countId": 2,
+      "itemId": 3,
+      "charmName": "Letter X",
+      "charmPrice": 420,
+      "charmImg": "/assets/X.png",
+      "id": 1
+    }
+  ],
+  "addbagcolect": [
+    {
+      "arrBelt": [
+        {
+          "beltId": 0.41323771598700687,
+          "beltName": "Letter V Gold",
+          "beltPreic": 1200,
+          "beltImg": "/assets/V.png",
+          "beltColor": "grayscale(0)",
+          "beltCount": 7
+        },
+        {
+          "beltId": 0.8392571742687243,
+          "beltName": "Letter W Gold",
+          "beltPreic": 700,
+          "beltImg": "/assets/W.png",
+          "beltColor": "grayscale(30%)",
+          "beltCount": 1
+        },
+        {
+          "beltId": 0.32635950139303493,
+          "beltName": "Letter W Gold",
+          "beltPreic": 700,
+          "beltImg": "/assets/W.png",
+          "beltColor": "grayscale(30%)",
+          "beltCount": 1
+        }
+      ],
+      "addBeltColor": "#d36911",
+      "beltName": "Custom Name Braclet",
+      "countId": 1,
+      "AddpriceBelt": 299,
+      "onlyBeltId": 0.9137757330767282,
+      "id": 1
+    }
+  ]
+}

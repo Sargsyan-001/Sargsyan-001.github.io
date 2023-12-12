@@ -1,0 +1,136 @@
+header {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    background-color: #25262D;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.logo-box {
+    width: 15%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    cursor: pointer;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.logo-link:hover {
+    color: rgb(198, 210, 221);
+}
+
+.hdr-nav {
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hdr-right-box {
+    width: 48%;
+    height: 70px;
+    display: flex;
+}
+
+.hdr-search-box {
+    width: 20%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdr-search {
+    display: flex;
+    color: white;
+}
+
+.hdr-search p {
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.hdr-navigate-box {
+    width: 66%;
+    height: 65px;
+    display: flex;
+}
+
+.nav-links {
+    color: #FFF;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.nav-links:hover {
+    text-shadow: 0 0 3px #f9f9f9;
+    transition: .5s;
+}
+
+.hdr-list {
+    padding: 0 10px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hdr-list-icons {
+    color: white;
+    width: 35px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.hdr-li {
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change-language-box {
+    width: 5%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-select {
+    border: none;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    width: 42px;
+}
+
+.lang-select option {
+    background-color: #25262D;
+    border: none;
+    color: white;
+}
